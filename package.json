@@ -1,6 +1,6 @@
 {
 	"name": "svelte-tags-input",
-	"version": "6.0.1",
+	"version": "6.0.2",
 	"description": "Fully customizable Svelte component to enter tags.",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
@@ -22,7 +22,7 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/agustinl/svelte-tags-input"
+		"url": "https://github.com/forwardinsight/svelte-tags-input.git"
 	},
 	"author": "Agustin Lautaro <aencaje@gmail.com>",
 	"license": "MIT",
@@ -34,8 +34,4 @@
 		"rollup-plugin-svelte": "^7.1.0",
 		"svelte": "^3.37.0"
 	},
-	"homepage": "https://svelte-tags-input.vercel.app/",
-	"bugs": {
-		"url": "https://github.com/agustinl/svelte-tags-input/issues"
-	}
 }
