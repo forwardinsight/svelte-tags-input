@@ -561,7 +561,7 @@
 	.svelte-tags-input-layout.sti-layout-disable,
 	.svelte-tags-input-layout.sti-layout-disable input {
 		cursor: not-allowed;
-		background: #eaeaea;
+		background: #f8f8fa;
 	}
 
 	.svelte-tags-input-layout.sti-layout-disable:hover,

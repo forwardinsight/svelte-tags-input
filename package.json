@@ -1,37 +1,39 @@
 {
-	"name": "svelte-tags-input",
-	"version": "6.0.2",
-	"description": "Fully customizable Svelte component to enter tags.",
-	"main": "dist/index.js",
-	"module": "dist/index.mjs",
-	"svelte": "src/Tags.svelte",
-	"exports": {
-		".": {
-			"svelte": "src/Tags.svelte"
-		}
-	},
-	"scripts": {
-		"build": "rollup -c",
-		"prepare": "npm run build",
-		"dev": "rollup -c -w"
-	},
-	"keywords": [
-		"svelte",
-		"tags",
-		"input"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/forwardinsight/svelte-tags-input.git"
-	},
-	"author": "Agustin Lautaro <aencaje@gmail.com>",
-	"license": "MIT",
-	"devDependencies": {
-		"@rollup/plugin-commonjs": "^18.0.0",
-		"rollup": "^2.45.2",
-		"rollup-plugin-css-only": "^3.1.0",
-		"rollup-plugin-node-resolve": "^5.2.0",
-		"rollup-plugin-svelte": "^7.1.0",
-		"svelte": "^3.37.0"
-	},
+  "name": "@forwardinsight/svelte-tags-input",
+  "version": "1.0.8",
+  "description": "<p align=\"center\"><a href=\"https://svelte-tags-input.vercel.app\"><img src=\"https://svelte-tags-input.vercel.app/readme-image.png\" alt=\"Svelte Tags Input\"/></a></p> <h1 align=\"center\">     svelte-tags-input </h1> <div align=\"center\">Svelte tags input is a component to use with Svelte and easily enter tags and customize some options</div> <br /> <p align=\"center\"> <a href=\"https://www.npmjs.com/package/svelte-tags-input\"><img src=\"https://img.shields.io/npm/v/svelte-tags-input.svg\"/></a> <a href=\"https://opensource.org/licenses/MIT\"><img src=\"https://img.shields.io/badge/License-MIT-blue.svg\"/></a> <a href=\"https://madewithsvelte.com/p/svelte-tags-input/shield-link\"><img src=\"https://madewithsvelte.com/storage/repo-shields/2151-shield.svg\"/></a> </p>",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "dev": "rollup -c -w",
+    "build-package": "svelte-package -i src -o dist/svelte"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forwardinsight/svelte-tags-input.git"
+  },
+  "author": "Agustin Lautaro <aencaje@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forwardinsight/svelte-tags-input/issues"
+  },
+  "homepage": "https://github.com/forwardinsight/svelte-tags-input#readme",
+  "devDependencies": {
+    "@sveltejs/package": "^2.2.2",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "rollup": "^2.45.2",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.37.0"
+  },
+  "peerDependencies": {
+    "svelte": "^3.37.0"
+  },
+  "exports": {
+    ".": {
+      "svelte": "src/Tags.svelte"
+    }
+  }
 }
